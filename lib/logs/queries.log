@@ -1,0 +1,1858 @@
+2016-07-22 17:19:27 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:19:27 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:19:41 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:19:41 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:21:20 Query: SELECT * FROM user User   WHERE  email = 'admin' AND  password = 'c405d2d6643ef80aa147253952fa0480bdbe039a'   
+2016-07-22 17:21:23 Query: SELECT * FROM user User   WHERE  email = 'admin' AND  password = 'c405d2d6643ef80aa147253952fa0480bdbe039a'   
+2016-07-22 17:21:58 Query: SELECT * FROM user User   WHERE  email = 'admin' AND  password = 'c405d2d6643ef80aa147253952fa0480bdbe039a'   
+2016-07-22 17:22:02 Query: SELECT * FROM user User   WHERE  email = 'admin' AND  password = 'c405d2d6643ef80aa147253952fa0480bdbe039a'   
+2016-07-22 17:22:53 Query: SELECT * FROM user User   WHERE  email = 'admin' AND  password = 'c405d2d6643ef80aa147253952fa0480bdbe039a'   
+2016-07-22 17:22:53 Query: SELECT * FROM user User     
+2016-07-22 17:30:08 Query: SELECT * FROM user User     
+2016-07-22 17:30:10 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:30:19 Query: INSERT INTO movie_category (title, created, modified) VALUES ('Action', '2016-07-22 17:30:19', '2016-07-22 17:30:19')
+2016-07-22 17:30:19 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:30:19 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:30:29 Query: INSERT INTO movie_category (title, created, modified) VALUES ('Romantic', '2016-07-22 17:30:29', '2016-07-22 17:30:29')
+2016-07-22 17:30:29 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:30:29 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:30:31 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:30:33 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:30:52 Query: INSERT INTO movie_category (title, created, modified) VALUES ('Anime', '2016-07-22 17:30:52', '2016-07-22 17:30:52')
+2016-07-22 17:30:52 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:30:52 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:30:56 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:30:57 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:31:12 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:31:12 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:31:14 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:33:40 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:33:40 Query: INSERT INTO movie (title, open_date, description, trial_url, duration, director, actor, language, country, category_id, created, modified) VALUES ('&#272;&#7858;NG C&#7844;P TH� C&#431;NG', '2016-07-23', '\"&#272;&#7859;ng C&#7845;p Th� C&#432;ng\" l� b&#7897; phim xoay quanh cu&#7897;c s&#7889;ng c&#7911;a nh&#7919;ng th� c&#432;ng trong nh� m&#7895;i khi ch�ng ta t&#7841;m bi&#7879;t ch�ng &#273;&#7875; &#273;i h&#7885;c ho&#7863;c t&#7899;i n&#417;i l�m vi&#7879;c h�ng ng�y. B&#7897; phim c� s&#7921; tham gia l&#7891;ng ti&#7871;ng c&#7911;a c�c danh h�i &#273;�nh &#273;�m nh&#432; Louis C.K., Eric Stonestreet v� Kevin Hart.', '2dE0XFcdjKA', '99', 'Chris Renaud, Yarrow Cheney', 'Lake Bell, Kevin Hart, Ellie Kemper', 'Ti&#7871;ng Anh - Ph&#7909; &#272;&#7873; Ti&#7871;ng Vi&#7879;t', 'VN', '1', '2016-07-22 17:33:40', '2016-07-22 17:33:40')
+2016-07-22 17:33:40 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:33:40 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:33:40 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:33:42 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:33:42 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:33:42 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 17:34:03 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:34:03 Query: DELETE  FROM calendar  WHERE  movie_id = '1' AND  day = '2016-07-22'
+2016-07-22 17:34:03 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2016-07-22', '10:00', '2016-07-22 17:34:03')
+2016-07-22 17:34:03 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:34:03 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2016-07-22', '11:00', '2016-07-22 17:34:03')
+2016-07-22 17:34:03 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:34:03 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2016-07-22', '12:00', '2016-07-22 17:34:03')
+2016-07-22 17:34:03 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:34:03 Query: DELETE  FROM calendar  WHERE  movie_id = '1' AND  day = '2016-07-25'
+2016-07-22 17:34:03 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2016-07-25', '10:30', '2016-07-22 17:34:03')
+2016-07-22 17:34:03 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:34:03 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2016-07-25', '14:00', '2016-07-22 17:34:03')
+2016-07-22 17:34:03 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:34:03 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:34:03 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 17:34:03 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:34:03 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:34:04 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:34:04 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:34:04 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 17:34:07 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:34:07 Query: DELETE  FROM calendar  WHERE  movie_id = '1' AND  day = '2016-07-22'
+2016-07-22 17:34:07 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2016-07-22', '10:00', '2016-07-22 17:34:07')
+2016-07-22 17:34:07 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:34:07 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2016-07-22', '11:00', '2016-07-22 17:34:07')
+2016-07-22 17:34:07 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:34:07 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2016-07-22', '12:00', '2016-07-22 17:34:07')
+2016-07-22 17:34:07 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:34:07 Query: DELETE  FROM calendar  WHERE  movie_id = '1' AND  day = '2016-07-25'
+2016-07-22 17:34:07 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2016-07-25', '10:30', '2016-07-22 17:34:07')
+2016-07-22 17:34:07 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:34:07 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2016-07-25', '14:00', '2016-07-22 17:34:07')
+2016-07-22 17:34:07 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:34:07 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:34:07 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 17:34:07 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:34:07 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:34:15 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:34:15 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:34:17 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:34:17 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:34:19 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:34:19 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:34:21 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:34:21 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:34:37 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:34:37 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:35:02 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:35:02 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:35:20 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:35:20 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:35:22 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:35:22 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:35:23 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:35:23 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:35:31 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:35:31 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:35:33 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:35:33 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:35:36 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:35:36 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:35:38 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:35:38 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2016-07-22 17:35:55 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:35:55 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2016-07-22 17:35:55 Query: UPDATE movie SET title = 'ĐẲNG CẤP THÚ CƯNG', open_date = '2016-07-23', description = '\"Đẳng Cấp Thú Cưng\" là bộ phim xoay quanh cuộc sống của những thú cưng trong nhà mỗi khi chúng ta tạm biệt chúng để đi học hoặc tới nơi làm việc hàng ngày. Bộ phim có sự tham gia lồng tiếng của các danh hài đình đám như Louis C.K., Eric Stonestreet và Kevin Hart.', trial_url = '2dE0XFcdjKA', duration = '99', director = 'Chris Renaud, Yarrow Cheney', actor = 'Lake Bell, Kevin Hart, Ellie Kemper', language = 'Tiếng Anh - Phụ Đề Tiếng Việt', country = 'VN', category_id = '1', created = '2016-07-22 17:35:55', modified = '2016-07-22 17:35:55'  WHERE  id = '1'
+2016-07-22 17:35:55 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:35:55 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:36:00 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:00 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:36:02 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:02 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:36:03 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:03 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:36:03 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:03 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:36:05 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:05 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:36:07 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:07 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:07 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 17:36:10 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:10 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:10 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2016-07-22' AND  time = '12:00'   
+2016-07-22 17:36:22 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:22 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:26 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:26 Query: INSERT INTO booking (user_id, movie_id, day, time, seat, code, created) VALUES ('1', '1', '2016-07-22', '12:00', 'D_11,D_12,D_13,D_14', '1RB86', '2016-07-22 17:36:26')
+2016-07-22 17:36:26 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:36:28 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:28 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:36:29 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:29 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:29 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 17:36:30 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:30 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:30 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2016-07-22' AND  time = '12:00'   
+2016-07-22 17:36:35 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:35 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:36:37 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:37 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:37 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 17:36:38 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:38 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:38 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2016-07-22' AND  time = '11:00'   
+2016-07-22 17:36:42 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:42 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:44 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:44 Query: INSERT INTO booking (user_id, movie_id, day, time, seat, code, created) VALUES ('1', '1', '2016-07-22', '11:00', 'B_01,B_08', '04PTV', '2016-07-22 17:36:44')
+2016-07-22 17:36:44 Query: SELECT LAST_INSERT_ID() AS insertID
+2016-07-22 17:36:45 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:45 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:36:47 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:47 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:47 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 17:36:48 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:48 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:48 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2016-07-22' AND  time = '10:00'   
+2016-07-22 17:36:50 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:50 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:36:52 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:52 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:52 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 17:36:53 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:36:53 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:36:53 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2016-07-22' AND  time = '11:00'   
+2016-07-22 17:37:04 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:37:04 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 17:55:30 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:55:30 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:55:30 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 17:55:31 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 17:55:31 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 17:55:31 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2016-07-25' AND  time = '14:00'   
+2016-07-22 18:12:04 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:12:04 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 18:12:04 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2016-07-25' AND  time = '14:00'   
+2016-07-22 18:32:13 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:32:13 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 18:33:30 Query: SELECT * FROM user User     
+2016-07-22 18:33:30 Query: SELECT * FROM user User     
+2016-07-22 18:33:30 Query: SELECT * FROM user User     
+2016-07-22 18:33:30 Query: SELECT * FROM user User     
+2016-07-22 18:33:30 Query: SELECT * FROM user User     
+2016-07-22 18:33:30 Query: SELECT * FROM user User     
+2016-07-22 18:33:30 Query: SELECT * FROM user User     
+2016-07-22 18:33:30 Query: SELECT * FROM user User     
+2016-07-22 18:33:30 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:31 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:33:36 Query: SELECT * FROM user User     
+2016-07-22 18:34:06 Query: SELECT * FROM user User     
+2016-07-22 18:35:12 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:35:12 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 18:35:20 Query: SELECT * FROM user User   WHERE  email = 'admin' AND  password = 'c405d2d6643ef80aa147253952fa0480bdbe039a'   
+2016-07-22 18:35:20 Query: SELECT * FROM user User     
+2016-07-22 18:35:25 Query: SELECT * FROM user User     
+2016-07-22 18:35:27 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:35:29 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:35:30 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:35:30 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 18:35:33 Query: SELECT * FROM user User     
+2016-07-22 18:35:35 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:35:36 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:35:37 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:35:37 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 18:36:00 Query: SELECT * FROM user User   WHERE  email = 'admin' AND  password = 'c405d2d6643ef80aa147253952fa0480bdbe039a'   
+2016-07-22 18:36:00 Query: SELECT * FROM user User     
+2016-07-22 18:36:01 Query: SELECT * FROM user User     
+2016-07-22 18:36:21 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:36:21 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 18:36:22 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:36:22 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 18:36:22 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 18:36:23 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:36:23 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 18:36:23 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2016-07-22' AND  time = '12:00'   
+2016-07-22 18:36:52 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:36:52 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-22 18:36:53 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:36:53 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 18:36:53 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2016-07-22 18:36:56 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-22 18:36:56 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2016-07-22 18:36:56 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2016-07-22' AND  time = '12:00'   
+2016-07-22 18:37:01 Query: SELECT * FROM user User   WHERE  email = 'admin' AND  password = 'c405d2d6643ef80aa147253952fa0480bdbe039a'   
+2016-07-22 18:37:01 Query: SELECT * FROM user User     
+2016-07-22 18:37:04 Query: SELECT * FROM user User     
+2016-07-22 18:37:06 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:51:10 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:12 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:12 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-24 04:57:13 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:13 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-24 04:57:15 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:16 Query: SELECT * FROM user User     
+2016-07-24 04:57:17 Query: SELECT * FROM user User     
+2016-07-24 04:57:18 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:19 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:19 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-24 04:57:20 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:21 Query: SELECT * FROM user User     
+2016-07-24 04:57:28 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:28 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-24 04:57:29 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:31 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:31 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2016-07-24 04:57:33 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:57:39 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:58:38 Query: SELECT * FROM movie_category MovieCategory   WHERE  MovieCategory.id = '1'   
+2016-07-24 04:58:40 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:58:41 Query: SELECT * FROM movie_category MovieCategory   WHERE  MovieCategory.id = '2'   
+2016-07-24 04:58:42 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:58:46 Query: SELECT * FROM movie_category MovieCategory   WHERE  MovieCategory.id = '1'   
+2016-07-24 04:59:26 Query: SELECT * FROM movie_category MovieCategory     
+2016-07-24 04:59:26 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-05 04:46:45 Query: SELECT * FROM user User     
+2018-11-05 04:47:47 Query: SELECT * FROM user User     
+2018-11-05 04:50:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-05 04:50:51 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-05 04:50:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-05 04:51:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-05 04:51:42 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-05 04:51:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-05 04:51:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-05 04:51:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-05 04:51:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-05 04:51:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-05 04:51:56 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:44:51 Query: SELECT * FROM user User     
+2018-11-07 07:45:42 Query: INSERT INTO user (email, password, fullname, address, created, modified) VALUES ('nguyenvanvinhxk1997@gmail.com', 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c', 'Nguyễn Văn Vĩnh', 'Hà Nội', '2018-11-07 07:45:42', '2018-11-07 07:45:42')
+2018-11-07 07:45:42 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 07:47:00 Query: SELECT * FROM user User     
+2018-11-07 07:48:39 Query: SELECT * FROM user User     
+2018-11-07 07:48:48 Query: SELECT * FROM user User     
+2018-11-07 07:50:02 Query: SELECT * FROM user User     
+2018-11-07 07:50:05 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:50:05 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 07:50:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:50:12 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 07:50:13 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:53:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:54:11 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:54:11 Query: INSERT INTO movie (title, open_date, description, trial_url, duration, director, actor, language, country, created, modified) VALUES ('LỒNG TIẾNG - CHÂN NHỎ, BẠN Ở ĐÂU?', '2018-11-01', 'Sau lần chạm trán với Percy, một sinh vật với đôi chân bé nhỏ, người tuyết Migo quyết tâm thực hiện chuyến phiêu lưu của mình đến vùng đất xa xôi để chứng minh với cộng đồng của mình rằng Chân Nhỏ là có thật. Liệu Chân Nhỏ có thật sự đáng sợ như họ đã nghĩ? Hãy cùng Migo đi tìm sinh vật huyền bí này vào tháng 9 nhé!\r\n\r\n', '2JoLOPAAnFw&feature=youtu.be', '96', 'Karey Kirkpatrick', ' LeBron James, Channing Tatum, Zendaya', 'Lồng Tiếng Việt', 'US', '2018-11-07 07:54:11', '2018-11-07 07:54:11')
+2018-11-07 07:54:11 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 07:54:23 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:54:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:55:41 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:55:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:55:54 Query: INSERT INTO movie_category (title, created, modified) VALUES ('Hài', '2018-11-07 07:55:54', '2018-11-07 07:55:54')
+2018-11-07 07:55:54 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 07:55:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:56:07 Query: INSERT INTO movie_category (title, created, modified) VALUES ('Hành động', '2018-11-07 07:56:07', '2018-11-07 07:56:07')
+2018-11-07 07:56:07 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 07:56:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:56:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:56:15 Query: INSERT INTO movie_category (title, created, modified) VALUES ('Kinh dị', '2018-11-07 07:56:15', '2018-11-07 07:56:15')
+2018-11-07 07:56:15 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 07:56:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:56:17 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:56:28 Query: INSERT INTO movie_category (title, created, modified) VALUES ('Khoa học viễn tưởng', '2018-11-07 07:56:28', '2018-11-07 07:56:28')
+2018-11-07 07:56:28 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 07:56:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:56:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:56:28 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 07:56:32 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:56:32 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 07:57:17 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:57:18 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 07:57:27 Query: SELECT * FROM user User     
+2018-11-07 07:57:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:57:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:57:37 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 07:58:05 Query: INSERT INTO movie_category (title, created, modified) VALUES ('Hoạt hình', '2018-11-07 07:58:05', '2018-11-07 07:58:05')
+2018-11-07 07:58:05 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 07:58:05 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:58:10 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:58:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:58:46 Query: SELECT * FROM movie_category MovieCategory   WHERE  MovieCategory.id = '1'   
+2018-11-07 07:58:48 Query: SELECT * FROM movie_category MovieCategory   WHERE  MovieCategory.id = '1'   
+2018-11-07 07:58:48 Query: UPDATE movie_category SET title = 'Hài', created = '2018-11-07 07:58:48', modified = '2018-11-07 07:58:48'  WHERE  id = '1'
+2018-11-07 07:58:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:58:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:58:50 Query: SELECT * FROM user User     
+2018-11-07 07:58:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:58:52 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 07:59:17 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:59:17 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 07:59:20 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:59:20 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 07:59:20 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 07:59:25 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:59:25 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 07:59:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:59:27 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 07:59:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:59:28 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 07:59:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 07:59:30 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 07:59:30 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 07:59:59 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:01 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:00:02 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:02 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:00:03 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:03 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:00:03 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:00:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:07 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:00:07 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:00:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:08 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:00:08 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:00:23 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:23 Query: DELETE  FROM calendar  WHERE  movie_id = '1' AND  day = '2018-11-07'
+2018-11-07 08:00:24 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2018-11-07', '09:00', '2018-11-07 08:00:23')
+2018-11-07 08:00:24 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 08:00:24 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2018-11-07', '11:30', '2018-11-07 08:00:24')
+2018-11-07 08:00:24 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 08:00:24 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:00:24 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:00:24 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:24 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:00:25 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:25 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:00:25 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:00:34 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:36 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:38 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:00:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:00:52 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:01:05 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:05 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:01:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:15 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:01:21 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:21 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:01:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:27 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:01:33 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:33 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:01:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:35 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:01:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:37 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:01:42 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:42 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:01:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:44 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:01:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:47 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:01:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:01:54 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:02:02 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:02:02 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 08:02:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:02:51 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 08:02:51 Query: UPDATE movie SET title = 'LỒNG TIẾNG - CHÂN NHỎ, BẠN Ở ĐÂU?', open_date = '2018-11-01', description = 'Sau lần chạm trán với Percy, một sinh vật với đôi chân bé nhỏ, người tuyết Migo quyết tâm thực hiện chuyến phiêu lưu của mình đến vùng đất xa xôi để chứng minh với cộng đồng của mình rằng Chân Nhỏ là có thật. Liệu Chân Nhỏ có thật sự đáng sợ như họ đã nghĩ? Hãy cùng Migo đi tìm sinh vật huyền bí này vào tháng 9 nhé!\r\n\r\n', trial_url = '2JoLOPAAnFw&feature=youtu.be', duration = '96', director = 'Karey Kirkpatrick', actor = ' LeBron James, Channing Tatum, Zendaya', language = 'Lồng Tiếng Việt', country = 'US', category_id = '1', created = '2018-11-07 08:02:51', modified = '2018-11-07 08:02:51'  WHERE  id = '1'
+2018-11-07 08:02:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:02:51 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:02:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:02:58 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:02:59 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:02:59 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:03:20 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:03:20 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:03:24 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:03:24 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:03:26 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:03:26 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:03:26 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:03:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:03:27 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:03:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:03:28 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 08:04:26 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:04:26 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 08:04:27 Query: UPDATE movie SET title = 'LỒNG TIẾNG - CHÂN NHỎ, BẠN Ở ĐÂU?', open_date = '2018-11-01', description = 'Sau lần chạm trán với Percy, một sinh vật với đôi chân bé nhỏ, người tuyết Migo quyết tâm thực hiện chuyến phiêu lưu của mình đến vùng đất xa xôi để chứng minh với cộng đồng của mình rằng Chân Nhỏ là có thật. Liệu Chân Nhỏ có thật sự đáng sợ như họ đã nghĩ? Hãy cùng Migo đi tìm sinh vật huyền bí này vào tháng 9 nhé!\r\n\r\n', trial_url = '2JoLOPAAnFw&feature=youtu.be', duration = '96', director = 'Karey Kirkpatrick', actor = ' LeBron James, Channing Tatum, Zendaya', language = 'Lồng Tiếng Việt', country = 'US', category_id = '1', created = '2018-11-07 08:04:26', modified = '2018-11-07 08:04:26'  WHERE  id = '1'
+2018-11-07 08:04:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:04:27 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:06:22 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:06:22 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:06:24 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:06:25 Query: SELECT * FROM user User     
+2018-11-07 08:06:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:06:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:06:29 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:06:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:06:31 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:06:31 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:06:31 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:06:33 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:06:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:06:49 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:06:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:06:54 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:07:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:07:47 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:09:24 Query: SELECT * FROM user User     
+2018-11-07 08:09:26 Query: SELECT * FROM user User     
+2018-11-07 08:10:19 Query: INSERT INTO user (email, password, fullname, address, created, modified) VALUES ('vinhxk199x@gmail.com', 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c', 'Nguyễn Vĩnh', 'Hà Nội', '2018-11-07 08:10:19', '2018-11-07 08:10:19')
+2018-11-07 08:10:19 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 08:10:19 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:10:19 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:10:21 Query: SELECT * FROM user User     
+2018-11-07 08:10:36 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:10:36 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:10:36 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:10:49 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:10:49 Query: SELECT * FROM user User     
+2018-11-07 08:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:10:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:10:54 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:11:01 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:11:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:11:01 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:11:04 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:11:04 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:11:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:11:07 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:11:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:11:09 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:11:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:11:12 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:11:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:11:49 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:11:49 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:11:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:11:51 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:11:51 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2018-11-07' AND  time = '09:00'   
+2018-11-07 08:15:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:15:58 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:16:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:16:09 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:16:16 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:16:16 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:16:19 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:16:19 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:16:42 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:16:42 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:16:46 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:16:46 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:16:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:16:48 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:18:23 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:18:23 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:18:34 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:18:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:18:40 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:18:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:18:44 Query: SELECT * FROM user User     
+2018-11-07 08:18:51 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:18:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:18:51 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:18:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:18:57 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:18:57 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:19:03 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:19:03 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:19:05 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:19:07 Query: SELECT * FROM movie_category MovieCategory   WHERE  MovieCategory.id = '1'   
+2018-11-07 08:22:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:22:08 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:22:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:22:57 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:23:05 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:27:13 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:27:13 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:27:42 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:27:42 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:27:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:27:44 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:28:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:28:01 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:28:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:28:01 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:28:04 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:28:04 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:28:04 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:28:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:28:06 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:28:06 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2018-11-07' AND  time = '09:00'   
+2018-11-07 08:28:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:28:09 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:28:22 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:28:22 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:38:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:38:38 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:38:39 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:38:39 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:38:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:38:48 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:39:50 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:40:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:40:09 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:40:19 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:45:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:45:54 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:46:13 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:46:13 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:46:13 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:46:13 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:46:21 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:46:21 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:46:26 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:46:26 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:46:26 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:46:26 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:46:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:46:37 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:46:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:46:40 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:46:40 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:46:42 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:46:42 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:46:42 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2018-11-07' AND  time = '09:00'   
+2018-11-07 08:46:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:46:43 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:50:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:50:44 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:50:57 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:50:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:50:57 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:51:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:51:51 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:52:00 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:52:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:52:00 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:52:03 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:52:04 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:54:16 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:54:16 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:54:16 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:55:32 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:55:33 Query: SELECT * FROM user User     
+2018-11-07 08:55:36 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:55:36 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:56:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:56:06 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:56:11 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:56:11 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:56:16 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:56:16 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:56:44 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:56:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:56:44 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:56:46 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:56:46 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 08:56:46 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 08:56:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:56:49 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:57:56 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:59:23 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:59:23 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:59:23 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:59:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:59:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:59:42 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:59:46 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:59:52 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 08:59:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:59:52 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 08:59:55 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 08:59:55 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:00:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:00:58 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:01:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:01:04 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:01:04 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:01:05 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:01:05 Query: SELECT * FROM user User     
+2018-11-07 09:01:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:01:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:01:09 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:01:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:01:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:01:49 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:01:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:01:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:01:49 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:02:05 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:02:05 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:02:05 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:02:12 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:02:12 Query: SELECT * FROM user User     
+2018-11-07 09:02:17 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:02:17 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:02:17 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:02:17 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:02:46 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:02:46 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:02:46 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:02:56 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:02:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:02:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:02:57 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:03:03 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:03:03 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:03:04 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:03:04 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:03:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:03:06 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:03:06 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 09:03:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:03:08 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:03:10 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:03:10 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:03:11 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:03:11 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:03:11 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 09:03:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:03:12 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:03:12 Query: SELECT * FROM booking Booking   WHERE  movie_id = '1' AND  day = '2018-11-07' AND  time = '11:30'   
+2018-11-07 09:04:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:04:01 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:04:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:04:01 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:04:09 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:04:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:04:09 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:04:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:04:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:04:23 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:04:23 Query: SELECT * FROM user User     
+2018-11-07 09:04:30 Query: SELECT * FROM user User     
+2018-11-07 09:05:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:05:44 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:06:33 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:06:33 Query: SELECT * FROM user User     
+2018-11-07 09:06:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:35 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:06:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:46 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:46 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:46 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:42 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:46 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:46 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:07:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:47 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:07:48 Query: SELECT * FROM user User     
+2018-11-07 09:07:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:07:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:33 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:33 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:08:34 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:34 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:39 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:39 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:39 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:39 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:39 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:08:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:02 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:02 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:09:03 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:03 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:09:12 Query: SELECT * FROM user User     
+2018-11-07 09:09:46 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:09:46 Query: SELECT * FROM user User     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:09:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:49 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:10:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:55 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:10:55 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:11:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:14 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:11:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:15 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:11:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:28 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:11:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:35 Query: SELECT * FROM user User     
+2018-11-07 09:11:36 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:37 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:11:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:42 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:42 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:11:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:52 Query: INSERT INTO movie_category (title, created, modified) VALUES ('Hàng động, kinh dị', '2018-11-07 09:11:52', '2018-11-07 09:11:52')
+2018-11-07 09:11:52 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 09:11:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:11:53 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:11:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:13:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:13:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:13:48 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:13:50 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:13:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:13:51 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:13:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:08 Query: INSERT INTO movie (title, open_date, description, trial_url, duration, director, actor, language, country, category_id, created, modified) VALUES ('VENOM (PHIM CẤM KHÁN GIẢ DƯỚI 16 TUỔI)', '2018-10-04', 'Venom đã hé lộ thân phận nhân vật phản diện cực kỳ nguy hiểm và kinh hãi khi tung trailer chính thức khắp thế giới làm điên đảo fan hâm mộ trong thế giới của Marvel. Chàng phóng viên Eddie Brock bí mật theo dõi âm mưu xấu xa của một tổ chức và bị nhiễm phải Symbiote và trở thành quái vật Venom đầy nguy hiểm.', 'NUMvOu18JPc&feature=youtu.be', '115', 'Ruben Fleischer', 'Tom Hardy, Riz Ahmed, Michelle Williams,...', 'Tiếng Anh - Phụ đề Tiếng Việt', 'US', '6', '2018-11-07 09:15:07', '2018-11-07 09:15:07')
+2018-11-07 09:15:08 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 09:15:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:08 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:15:10 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:10 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 09:15:10 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '2'   
+2018-11-07 09:15:19 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:19 Query: DELETE  FROM calendar  WHERE  movie_id = '2' AND  day = '2018-11-07'
+2018-11-07 09:15:19 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('2', '2018-11-07', '10:00', '2018-11-07 09:15:19')
+2018-11-07 09:15:19 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 09:15:19 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 09:15:19 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '2'   
+2018-11-07 09:15:19 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:19 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:15:22 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:22 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '2'   
+2018-11-07 09:15:23 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:23 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:15:23 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:25 Query: SELECT * FROM user User     
+2018-11-07 09:15:35 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:15:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:35 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:15:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:38 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 09:15:46 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:46 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 09:15:46 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:46 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 09:15:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:47 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:15:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:49 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:15:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:51 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:15:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:15:53 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:16:10 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:16:10 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:22:31 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:22:31 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:23:51 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:23:51 Query: SELECT * FROM user User     
+2018-11-07 09:23:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:23:53 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:24:04 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:24:04 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:24:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:24:09 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:24:15 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:24:15 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:24:16 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:24:16 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:24:25 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:24:25 Query: SELECT * FROM user User     
+2018-11-07 09:24:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:24:28 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:24:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:24:30 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:24:50 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:24:51 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:24:51 Query: UPDATE movie SET title = 'LỒNG TIẾNG - CHÂN NHỎ, BẠN Ở ĐÂU?', open_date = '2018-11-01', description = 'Sau lần chạm trán với Percy, một sinh vật với đôi chân bé nhỏ, người tuyết Migo quyết tâm thực hiện chuyến phiêu lưu của mình đến vùng đất xa xôi để chứng minh với cộng đồng của mình rằng Chân Nhỏ là có thật. Liệu Chân Nhỏ có thật sự đáng sợ như họ đã nghĩ? Hãy cùng Migo đi tìm sinh vật huyền bí này vào tháng 9 nhé!\r\n\r\n', trial_url = 'https://youtu.be/NUMvOu18JPc', duration = '96', director = 'Karey Kirkpatrick', actor = ' LeBron James, Channing Tatum, Zendaya', language = 'Lồng Tiếng Việt', country = 'US', category_id = '1', created = '2018-11-07 09:24:51', modified = '2018-11-07 09:24:51'  WHERE  id = '1'
+2018-11-07 09:24:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:24:51 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:24:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:24:54 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '2'   
+2018-11-07 09:25:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:25:00 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '2'   
+2018-11-07 09:25:00 Query: UPDATE movie SET title = 'VENOM (PHIM CẤM KHÁN GIẢ DƯỚI 16 TUỔI)', open_date = '2018-10-04', description = 'Venom đã hé lộ thân phận nhân vật phản diện cực kỳ nguy hiểm và kinh hãi khi tung trailer chính thức khắp thế giới làm điên đảo fan hâm mộ trong thế giới của Marvel. Chàng phóng viên Eddie Brock bí mật theo dõi âm mưu xấu xa của một tổ chức và bị nhiễm phải Symbiote và trở thành quái vật Venom đầy nguy hiểm.', trial_url = 'https://youtu.be/NUMvOu18JPc', duration = '115', director = 'Ruben Fleischer', actor = 'Tom Hardy, Riz Ahmed, Michelle Williams,...', language = 'Tiếng Anh - Phụ đề Tiếng Việt', country = 'US', category_id = '6', created = '2018-11-07 09:25:00', modified = '2018-11-07 09:25:00'  WHERE  id = '2'
+2018-11-07 09:25:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:25:00 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:25:03 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:25:03 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:25:05 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:25:05 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:25:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:25:06 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:25:10 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:25:10 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:25:12 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:25:12 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:25:57 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:25:57 Query: SELECT * FROM user User     
+2018-11-07 09:25:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:25:58 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:25:59 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:25:59 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:26:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:26:07 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:26:07 Query: UPDATE movie SET title = 'LỒNG TIẾNG - CHÂN NHỎ, BẠN Ở ĐÂU?', open_date = '2018-11-01', description = 'Sau lần chạm trán với Percy, một sinh vật với đôi chân bé nhỏ, người tuyết Migo quyết tâm thực hiện chuyến phiêu lưu của mình đến vùng đất xa xôi để chứng minh với cộng đồng của mình rằng Chân Nhỏ là có thật. Liệu Chân Nhỏ có thật sự đáng sợ như họ đã nghĩ? Hãy cùng Migo đi tìm sinh vật huyền bí này vào tháng 9 nhé!\r\n\r\n', trial_url = 'NUMvOu18JPc', duration = '96', director = 'Karey Kirkpatrick', actor = ' LeBron James, Channing Tatum, Zendaya', language = 'Lồng Tiếng Việt', country = 'US', category_id = '1', created = '2018-11-07 09:26:07', modified = '2018-11-07 09:26:07'  WHERE  id = '1'
+2018-11-07 09:26:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:26:07 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:26:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:26:08 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '2'   
+2018-11-07 09:26:13 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:26:13 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '2'   
+2018-11-07 09:26:13 Query: UPDATE movie SET title = 'VENOM (PHIM CẤM KHÁN GIẢ DƯỚI 16 TUỔI)', open_date = '2018-10-04', description = 'Venom đã hé lộ thân phận nhân vật phản diện cực kỳ nguy hiểm và kinh hãi khi tung trailer chính thức khắp thế giới làm điên đảo fan hâm mộ trong thế giới của Marvel. Chàng phóng viên Eddie Brock bí mật theo dõi âm mưu xấu xa của một tổ chức và bị nhiễm phải Symbiote và trở thành quái vật Venom đầy nguy hiểm.', trial_url = 'NUMvOu18JPc', duration = '115', director = 'Ruben Fleischer', actor = 'Tom Hardy, Riz Ahmed, Michelle Williams,...', language = 'Tiếng Anh - Phụ đề Tiếng Việt', country = 'US', category_id = '6', created = '2018-11-07 09:26:13', modified = '2018-11-07 09:26:13'  WHERE  id = '2'
+2018-11-07 09:26:13 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:26:13 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:27:14 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:27:14 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:27:21 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:27:21 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:27:21 Query: UPDATE movie SET title = 'LỒNG TIẾNG - CHÂN NHỎ, BẠN Ở ĐÂU?', open_date = '2018-11-01', description = 'Sau lần chạm trán với Percy, một sinh vật với đôi chân bé nhỏ, người tuyết Migo quyết tâm thực hiện chuyến phiêu lưu của mình đến vùng đất xa xôi để chứng minh với cộng đồng của mình rằng Chân Nhỏ là có thật. Liệu Chân Nhỏ có thật sự đáng sợ như họ đã nghĩ? Hãy cùng Migo đi tìm sinh vật huyền bí này vào tháng 9 nhé!\r\n\r\n', trial_url = 'NUMvOu18JPc&feature=youtu.be', duration = '96', director = 'Karey Kirkpatrick', actor = ' LeBron James, Channing Tatum, Zendaya', language = 'Lồng Tiếng Việt', country = 'US', category_id = '1', created = '2018-11-07 09:27:21', modified = '2018-11-07 09:27:21'  WHERE  id = '1'
+2018-11-07 09:27:21 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:27:21 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:27:23 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:27:23 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '2'   
+2018-11-07 09:27:26 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:27:26 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '2'   
+2018-11-07 09:27:27 Query: UPDATE movie SET title = 'VENOM (PHIM CẤM KHÁN GIẢ DƯỚI 16 TUỔI)', open_date = '2018-10-04', description = 'Venom đã hé lộ thân phận nhân vật phản diện cực kỳ nguy hiểm và kinh hãi khi tung trailer chính thức khắp thế giới làm điên đảo fan hâm mộ trong thế giới của Marvel. Chàng phóng viên Eddie Brock bí mật theo dõi âm mưu xấu xa của một tổ chức và bị nhiễm phải Symbiote và trở thành quái vật Venom đầy nguy hiểm.', trial_url = 'NUMvOu18JPc&feature=youtu.be', duration = '115', director = 'Ruben Fleischer', actor = 'Tom Hardy, Riz Ahmed, Michelle Williams,...', language = 'Tiếng Anh - Phụ đề Tiếng Việt', country = 'US', category_id = '6', created = '2018-11-07 09:27:26', modified = '2018-11-07 09:27:26'  WHERE  id = '2'
+2018-11-07 09:27:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:27:27 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:27:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:27:30 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:27:32 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:27:32 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:27:34 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:27:34 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:27:48 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:27:48 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:29:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:29:27 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:29:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:29:28 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:30:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:30:07 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:30:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:30:08 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 09:30:50 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:30:50 Query: SELECT * FROM user User     
+2018-11-07 09:30:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:30:52 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:30:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:30:53 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:30:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:30:57 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:30:57 Query: UPDATE movie SET title = 'LỒNG TIẾNG - CHÂN NHỎ, BẠN Ở ĐÂU?', open_date = '2018-11-01', description = 'Sau lần chạm trán với Percy, một sinh vật với đôi chân bé nhỏ, người tuyết Migo quyết tâm thực hiện chuyến phiêu lưu của mình đến vùng đất xa xôi để chứng minh với cộng đồng của mình rằng Chân Nhỏ là có thật. Liệu Chân Nhỏ có thật sự đáng sợ như họ đã nghĩ? Hãy cùng Migo đi tìm sinh vật huyền bí này vào tháng 9 nhé!\r\n\r\n', trial_url = 'cRCOVzkGVJM', duration = '96', director = 'Karey Kirkpatrick', actor = ' LeBron James, Channing Tatum, Zendaya', language = 'Lồng Tiếng Việt', country = 'US', category_id = '1', created = '2018-11-07 09:30:57', modified = '2018-11-07 09:30:57'  WHERE  id = '1'
+2018-11-07 09:30:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:30:58 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:31:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:31:00 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:31:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:31:00 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:31:12 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:31:12 Query: SELECT * FROM user User     
+2018-11-07 09:31:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:31:29 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:31:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:31:30 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:31:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:31:35 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:31:35 Query: UPDATE movie SET title = 'LỒNG TIẾNG - CHÂN NHỎ, BẠN Ở ĐÂU?', open_date = '2018-11-01', description = 'Sau lần chạm trán với Percy, một sinh vật với đôi chân bé nhỏ, người tuyết Migo quyết tâm thực hiện chuyến phiêu lưu của mình đến vùng đất xa xôi để chứng minh với cộng đồng của mình rằng Chân Nhỏ là có thật. Liệu Chân Nhỏ có thật sự đáng sợ như họ đã nghĩ? Hãy cùng Migo đi tìm sinh vật huyền bí này vào tháng 9 nhé!\r\n\r\n', trial_url = 'NUMvOu18JPc', duration = '96', director = 'Karey Kirkpatrick', actor = ' LeBron James, Channing Tatum, Zendaya', language = 'Lồng Tiếng Việt', country = 'US', category_id = '1', created = '2018-11-07 09:31:35', modified = '2018-11-07 09:31:35'  WHERE  id = '1'
+2018-11-07 09:31:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:31:35 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:31:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:31:38 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:31:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:31:40 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:31:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:31:53 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:31:58 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:31:58 Query: SELECT * FROM user User     
+2018-11-07 09:32:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:32:00 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:32:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:32:01 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '2'   
+2018-11-07 09:32:05 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:32:05 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '2'   
+2018-11-07 09:32:05 Query: UPDATE movie SET title = 'VENOM (PHIM CẤM KHÁN GIẢ DƯỚI 16 TUỔI)', open_date = '2018-10-04', description = 'Venom đã hé lộ thân phận nhân vật phản diện cực kỳ nguy hiểm và kinh hãi khi tung trailer chính thức khắp thế giới làm điên đảo fan hâm mộ trong thế giới của Marvel. Chàng phóng viên Eddie Brock bí mật theo dõi âm mưu xấu xa của một tổ chức và bị nhiễm phải Symbiote và trở thành quái vật Venom đầy nguy hiểm.', trial_url = 'NUMvOu18JPc', duration = '115', director = 'Ruben Fleischer', actor = 'Tom Hardy, Riz Ahmed, Michelle Williams,...', language = 'Tiếng Anh - Phụ đề Tiếng Việt', country = 'US', category_id = '6', created = '2018-11-07 09:32:05', modified = '2018-11-07 09:32:05'  WHERE  id = '2'
+2018-11-07 09:32:05 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:32:05 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:32:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:32:58 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:33:02 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:33:02 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 09:33:03 Query: UPDATE movie SET title = 'LỒNG TIẾNG - CHÂN NHỎ, BẠN Ở ĐÂU?', open_date = '2018-11-01', description = 'Sau lần chạm trán với Percy, một sinh vật với đôi chân bé nhỏ, người tuyết Migo quyết tâm thực hiện chuyến phiêu lưu của mình đến vùng đất xa xôi để chứng minh với cộng đồng của mình rằng Chân Nhỏ là có thật. Liệu Chân Nhỏ có thật sự đáng sợ như họ đã nghĩ? Hãy cùng Migo đi tìm sinh vật huyền bí này vào tháng 9 nhé!\r\n\r\n', trial_url = '2JoLOPAAnFw', duration = '96', director = 'Karey Kirkpatrick', actor = ' LeBron James, Channing Tatum, Zendaya', language = 'Lồng Tiếng Việt', country = 'US', category_id = '1', created = '2018-11-07 09:33:02', modified = '2018-11-07 09:33:02'  WHERE  id = '1'
+2018-11-07 09:33:03 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:33:03 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:33:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:33:06 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:33:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:33:07 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:33:56 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:33:56 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:33:57 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:33:57 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:39:26 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:39:26 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:39:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:39:27 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:39:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:39:30 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 09:39:30 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 09:42:26 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:42:26 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:42:26 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:42:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:42:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:42:27 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:42:41 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:42:41 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:42:41 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:42:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:42:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:42:45 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:42:45 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:42:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:42:58 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:43:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:01 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:43:27 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:43:27 Query: SELECT * FROM user User     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:41 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:47 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:47 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:43:50 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:43:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:00 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:02 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:02 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:44:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:29 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:44:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:44:30 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:11 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:45:11 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:48:25 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:48:25 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:48:30 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:48:30 Query: SELECT * FROM user User     
+2018-11-07 09:48:32 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:48:36 Query: SELECT * FROM user User     
+2018-11-07 09:48:37 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:48:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:48:38 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:48:39 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:48:41 Query: SELECT * FROM user User     
+2018-11-07 09:48:42 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:48:42 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:48:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:48:54 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:48:54 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:51:49 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:51:49 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:51:51 Query: SELECT * FROM user User     
+2018-11-07 09:51:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:51:53 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:51:53 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:51:57 Query: SELECT * FROM user User     
+2018-11-07 09:54:06 Query: SELECT * FROM user User     
+2018-11-07 09:54:13 Query: SELECT * FROM user User     
+2018-11-07 09:54:34 Query: SELECT * FROM user User     
+2018-11-07 09:54:41 Query: SELECT * FROM user User     
+2018-11-07 09:54:50 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:54:50 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:54:50 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:55:06 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:55:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:55:06 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:55:19 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:55:20 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:55:20 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:56:17 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:56:17 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:56:17 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:56:23 Query: SELECT * FROM user User     
+2018-11-07 09:56:23 Query: SELECT * FROM user User     
+2018-11-07 09:57:18 Query: SELECT * FROM user User     
+2018-11-07 09:57:20 Query: SELECT * FROM user User     
+2018-11-07 09:58:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:58:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:58:01 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:58:22 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:58:22 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:58:36 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 09:58:36 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:58:36 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:58:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:58:43 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:58:51 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:58:51 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 09:58:56 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 09:58:56 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:05:55 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:05:55 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:06:04 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:06:04 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 10:06:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:06:09 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:06:33 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:06:33 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:06:36 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:06:36 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 10:06:41 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:06:41 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:06:56 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:06:56 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:06:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:06:59 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 10:07:01 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:07:01 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:07:02 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:07:02 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:07:08 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:07:08 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:07:31 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 10:07:31 Query: SELECT * FROM user User     
+2018-11-07 10:07:32 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:07:32 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:07:34 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:07:34 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 10:07:34 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 10:07:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:07:38 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:07:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:07:40 Query: SELECT * FROM movie Movie   WHERE  Movie.id = '1'   
+2018-11-07 10:07:41 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:07:41 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:08:03 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 10:08:04 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:04 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:08:06 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:06 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:08:07 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:07 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:08:07 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '2'   
+2018-11-07 10:08:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:09 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:08:09 Query: SELECT * FROM booking Booking   WHERE  movie_id = '2' AND  day = '2018-11-07' AND  time = '10:00'   
+2018-11-07 10:08:13 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:13 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:08:17 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:17 Query: INSERT INTO booking (user_id, movie_id, day, time, seat, code, created) VALUES ('1', '2', '2018-11-07', '10:00', 'G_04,G_05', '48PQ1', '2018-11-07 10:08:17')
+2018-11-07 10:08:17 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 10:08:28 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:28 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:08:30 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:30 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:08:32 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:32 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:08:32 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '2'   
+2018-11-07 10:08:33 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:33 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:08:33 Query: SELECT * FROM booking Booking   WHERE  movie_id = '2' AND  day = '2018-11-07' AND  time = '10:00'   
+2018-11-07 10:08:35 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:08:35 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:10:59 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:11:06 Query: SELECT * FROM user User     
+2018-11-07 10:11:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:11:09 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:11:09 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:12:17 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 10:12:17 Query: SELECT * FROM user User     
+2018-11-07 10:12:22 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:12:22 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:12:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:12:29 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 10:12:29 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 10:12:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:12:38 Query: DELETE  FROM calendar  WHERE  movie_id = '1' AND  day = '2018-11-07'
+2018-11-07 10:12:38 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2018-11-07', '09:00', '2018-11-07 10:12:38')
+2018-11-07 10:12:38 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 10:12:38 Query: INSERT INTO calendar (movie_id, day, time, created) VALUES ('1', '2018-11-07', '11:30', '2018-11-07 10:12:38')
+2018-11-07 10:12:38 Query: SELECT LAST_INSERT_ID() AS insertID
+2018-11-07 10:12:38 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '1'   
+2018-11-07 10:12:38 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '1'   
+2018-11-07 10:12:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:12:38 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:12:55 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:12:55 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = ''   
+2018-11-07 10:12:55 Query: SELECT * FROM booking Booking   WHERE  movie_id = '' AND  day = '' AND  time = ''   
+2018-11-07 10:12:55 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:12:55 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:13:21 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:21 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:13:21 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:21 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:13:25 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:25 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:13:27 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:27 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:13:29 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:29 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:13:29 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '2'   
+2018-11-07 10:13:31 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:31 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:13:31 Query: SELECT * FROM booking Booking   WHERE  movie_id = '2' AND  day = '2018-11-07' AND  time = '10:00'   
+2018-11-07 10:13:38 Query: SELECT * FROM user User   WHERE  email = 'vinhxk199x@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 10:13:38 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:38 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:13:40 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:40 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:13:43 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:43 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:13:43 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '2'   
+2018-11-07 10:13:44 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:44 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:13:44 Query: SELECT * FROM booking Booking   WHERE  movie_id = '2' AND  day = '2018-11-07' AND  time = '10:00'   
+2018-11-07 10:13:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:52 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:13:55 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:55 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:13:55 Query: SELECT * FROM calendar Calendar   WHERE  movie_id = '2'   
+2018-11-07 10:13:56 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:13:56 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id   WHERE  Movie.id = '2'   
+2018-11-07 10:13:56 Query: SELECT * FROM booking Booking   WHERE  movie_id = '2' AND  day = '2018-11-07' AND  time = '10:00'   
+2018-11-07 10:35:41 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:35:41 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:35:47 Query: SELECT * FROM user User   WHERE  email = 'nguyenvanvinhxk1997@gmail.com' AND  password = 'bb6dd6e5fce4e93c1397873a0e0e3f88992e8b1c'   
+2018-11-07 10:35:47 Query: SELECT * FROM user User     
+2018-11-07 10:37:49 Query: SELECT * FROM user User     
+2018-11-07 10:37:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:37:52 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:37:52 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:37:52 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:37:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:37:58 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
+2018-11-07 10:37:58 Query: SELECT * FROM movie_category MovieCategory     
+2018-11-07 10:37:58 Query: SELECT * FROM movie Movie  INNER JOIN movie_category ON movie.category_id = movie_category.id     
